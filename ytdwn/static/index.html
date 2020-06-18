@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert YT to MP3</title>
+    <meta name="robots" content="noindex">
+    <meta name="description" content="download and convert songs on youtube as mp3">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<main>
+  <h1> MP3 YouTube Download </h1>
+  <form method="get" action="download.mp3" autocomplete="off" spellcheck="false" target="_blank" onsubmit="location.reload()">
+    <input type="text" placeholder="https://www.youtube.com/watch?v=..." name="u" value="">
+    <button type="submit">download video as MP3</button>
+  </form>
+  <small>
+    The download link must have the form www.youtube.com/watch?v=[id].
+    The protocol (https://) can be omitted. <br>
+    I use the youtube dl library to transform the videos, cheers to the developers and maintainers. <br>
+    I do not guarantee for anything since this is a private little homepage not intended for public use and no warranty exists whatsoever.
+  </small>
+</main>
+</body>
+</html>

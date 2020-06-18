@@ -1,0 +1,10 @@
+node_modules
+
+*.tmp
+*.iml
+
+*.mp4
+*.mp3
+*.png
+*.ico
+*.jpg

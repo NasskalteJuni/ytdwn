@@ -1,0 +1,15 @@
+{
+  "name": "ytdwn",
+  "version": "1.0.0",
+  "description": "convert youtube songs to mp3 and download them",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["small","utility","mp3","conversion"],
+  "author": "Lukas Steinjan",
+  "license": "ISC",
+  "dependencies": {
+    "youtube-dl": "^3.0.2"
+  }
+}
